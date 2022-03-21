@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000;
 const pgp = require('pg-promise')(/* options */)
 const db = pgp('postgres://postgres:312166390@34.79.81.80:5432/postgres')
 
