@@ -6,7 +6,7 @@ const db = pgp('postgres://postgres:312166390@34.79.81.80:5432/postgres')
 
 
 app.get('/', async (req, res) => {
-    res.send("hello world!")
+    res.send("hello world!aaa")
 })
 
 app.get('/users', async (req, res) => {
